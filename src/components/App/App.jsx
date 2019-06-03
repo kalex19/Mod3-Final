@@ -3,7 +3,7 @@ import CardContainer from '../../containers/CardContainer/CardContainer';
 
 function App(){
 	return (
-		<div className="App">
+		<div className="app">
 			<h1>Presidents and Assholes</h1>
 			<CardContainer />
 		</div>

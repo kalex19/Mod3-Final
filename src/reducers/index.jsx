@@ -3,4 +3,6 @@ import allDataReducer from './allDataReducer';
 import setErrorReducer from './setErrorReducer';
 import isLoadingReducer from './isLoadingReducer';
 
-rootReducer = combineReducers({ allDataReducer, setErrorReducer, isLoadingReducer });
+const rootReducer = combineReducers({ allDataReducer, setErrorReducer, isLoadingReducer });
+
+export default rootReducer;
